@@ -1,4 +1,4 @@
-/*CREATE TABLE vendors (
+CREATE TABLE vendors (
     vendor_id INT PRIMARY KEY,
     vendor_name VARCHAR(100),
     country VARCHAR(50),
@@ -51,4 +51,5 @@ CREATE TABLE inventory (
     last_restock_date DATE,
     FOREIGN KEY (product_id) REFERENCES products(product_id)
 );
+
 
