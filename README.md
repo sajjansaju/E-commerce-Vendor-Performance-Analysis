@@ -115,6 +115,8 @@ erDiagram
 ## 🔍 Key Analysis Performed
 
 The analysis covers multiple business areas.
+- Assumption used in revenue calculations
+  For all sales/revenue queries, I used: quantity * unit_price * (1 - discount / 100.0) And I counted only: order_status = 'Completed'
 
 ### 🏢 Vendor Performance Analysis
 
